@@ -1,0 +1,108 @@
+(footprint "KF301-5.0-2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.19 -7.56 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2b1c76df-52ac-49d7-b5df-8b62d5ae4e69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KF301-5.0-2P"
+		(at 1.94 -5.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "25a89c39-3051-4497-bf2a-7ef362b3757d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d33bbff5-07fc-4bb5-b97a-8b92ba7c0e02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c88517fe-8c68-4601-8a51-dadc9a8a88b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.19 2.46)
+		(end -2.5 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b04f943e-8555-4126-8622-39cd2bef2f6b")
+	)
+	(fp_rect
+		(start -2.5 -4)
+		(end 7.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2e5d8793-f49e-4981-9fe8-4ad28364e083")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6621df46-2dba-4e40-a71a-18e5fc92c11f")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "32a95462-91f6-41ce-b663-3bc7e67637b7")
+	)
+	(embedded_fonts no)
+	(model "/home/jaja/Bureau/ARES/CDF2026/2526-Projet2A-cdf/Hardware/PCBs/cdf_pcb_rail-ventouse-servo-V2/lib/connectors_ARES/KF301-5.0-2P--3DModel-STEP-510211.STEP"
+		(offset
+			(xyz 2.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

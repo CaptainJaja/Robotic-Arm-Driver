@@ -1,0 +1,26 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Cbst,TDK,CGA3E2X7R1H104K080AA,1,0.01,4.68,Cap: 100 nF  Total Derated Cap: 72 nF  VDC: 50 V  ESR: 29.6 mΩ  Package: 0603  
+Ccomp1,MuRata,GRM155R71C822KA01D,1,0.01,3,Cap: 8.2 nF  Total Derated Cap: 8.2 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0402  
+Ccomp2,MuRata,GRM155R71H821KA01D,1,0.01,3,Cap: 820 pF  Total Derated Cap: 820 pF  VDC: 50 V  ESR: 1 mΩ  Package: 0402  
+Ccomp3,TDK,CGA2B2X7R1H471K050BA,1,0.01,3,Cap: 470 pF  Total Derated Cap: 470 pF  VDC: 50 V  ESR: 4.96 Ω  Package: 0402  
+Cilim,AVX,06031U6R8BAT2A,1,0.05,4.68,Cap: 6.8 pF  Total Derated Cap: 6.8 pF  VDC: 100 V  ESR: 0 Ω  Package: 0603  
+Cin,Taiyo Yuden,MSASU32MSB7475MPNA01,1,0.14849,14.7,Cap: 4.7 µF  Total Derated Cap: 2.9 µF  VDC: 50 V  ESR: 6.46 mΩ  Package: 1210  
+Cout,Taiyo Yuden,MCASE32MSB5226KPNA01,1,0.2325,14.7,Cap: 22 µF  Total Derated Cap: 16 µF  VDC: 16 V  ESR: 3.29 mΩ  Package: 1210  
+Css,MuRata,GRM155R71C563KA88D,1,0.01,3,Cap: 56 nF  Total Derated Cap: 56 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0402  
+Cvcc,TDK,CGA5L2X7R1E225K160AA,1,0.08389,10.92,Cap: 2.2 µF  Total Derated Cap: 2.2 µF  VDC: 25 V  ESR: 4 mΩ  Package: 1206  
+Cvin,TDK,CGA3E2X7R1H104K080AA,1,0.01,4.68,Cap: 100 nF  Total Derated Cap: 72 nF  VDC: 50 V  ESR: 29.6 mΩ  Package: 0603  
+L1,Bourns,SRP1270-4R7M,1,0.83,246.49,L: 4.7 µH  DCR: 11.2 mΩ  IDC: 15 A  
+M1,Texas Instruments,CSD18543Q3A,1,0.21,18.49,VdsMax: 60 V  IdsMax: 35 Amps  
+M2,Texas Instruments,CSD18513Q5A,1,0.26,55.2,VdsMax: 40 V  IdsMax: 100 Amps  
+Rcomp1,Vishay-Dale,CRCW04021K65FKED,1,0.01,3,Resistance: 1.65 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rcomp2,Vishay-Dale,CRCW0402110RFKED,1,0.01,3,Resistance: 110 Ω  Tolerance: 1.0%  Power: 63 mW  
+Rfbb,Vishay-Dale,CRCW04022K15FKED,1,0.01,3,Resistance: 2.15 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rfbt,Yageo,RC0603FR-0718KL,1,0.01,4.68,Resistance: 18 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Rilim,Vishay-Dale,CRCW04021K21FKED,1,0.01,3,Resistance: 1.21 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rpgood,Yageo,RC0603FR-0720KL,1,0.01,4.68,Resistance: 20 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Rt,Vishay-Dale,CRCW040239K2FKED,1,0.01,3,Resistance: 39.2 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Ruv1,Vishay-Dale,CRCW0402100KFKED,1,0.01,3,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Ruv2,Vishay-Dale,CRCW06038K06FKEA,1,0.01,4.68,Resistance: 8.06 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Rvin,Vishay-Dale,CRCW06032R10FKEA,1,0.01,4.68,Resistance: 2.1 Ω  Tolerance: 1.0%  Power: 100 mW  
+U1,Texas Instruments,LM25145RGYR,1,0.949,24.75,
+Rvcc,Yageo,RC0603FR-0720KL,1,0.01,4.68,Resistance: 20 kΩ  Tolerance: 1.0%  Power: 100 mW  
