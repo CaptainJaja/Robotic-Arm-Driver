@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-13062022-067665";"";
+"REFERENCE";"SRP1270-6R8M";"";
+"TraceParts.PartTitle";"High current Power Inductor 6,8UH, 12A";"";
+"TraceParts.InstanceId";"90-13062022-0676652N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"BOURNS";"";
+"DESIGN";"High current Power Inductor 6,8UH, 12A";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.0";"";

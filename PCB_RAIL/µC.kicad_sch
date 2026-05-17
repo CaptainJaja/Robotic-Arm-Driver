@@ -5197,7 +5197,7 @@
 			(uuid "4b21357f-7506-46ac-985c-31a51f62d638")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f/3b40d16f-eabf-42fa-8d3a-54e367c9dc5b"
 					(reference "Y2")
 					(unit 1)
@@ -6395,7 +6395,7 @@
 			(uuid "31524787-7bb4-41b1-9735-86ef4ad5ad0b")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f/3b40d16f-eabf-42fa-8d3a-54e367c9dc5b"
 					(reference "#PWR053")
 					(unit 1)
@@ -6745,7 +6745,7 @@
 			(uuid "67ffb239-2cb0-4946-a2a7-bdfd25364924")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f/3b40d16f-eabf-42fa-8d3a-54e367c9dc5b"
 					(reference "R8")
 					(unit 1)
@@ -6781,7 +6781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+		(property "Footprint" "STM32G431CBU6:STM32G431CBU6"
 			(at 195.58 130.81 0)
 			(effects
 				(font

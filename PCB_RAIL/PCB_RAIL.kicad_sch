@@ -1358,167 +1358,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2528,6 +2367,960 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ECA1HHG471:ECA1HHG471"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ECA1HHG471"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ECA1HHG471:CAPPRD500W60D1000H2000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NHG-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "b_max" "0.65"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "RADIAL-2 Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "b_nom" "0.6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ECA1HHG471/Panasonic/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECA1HHG471/Panasonic/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "20-DEC-19"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "A_max" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ECA1HHG471"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "D_nom" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "e_nom" "5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "470µF 50V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 105°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ECA1HHG471_0_0"
+				(rectangle
+					(start -1.173 -1.532)
+					(end -0.284 -1.405)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.792 -1.913)
+					(end -0.665 -1.024)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.286 -2.54)
+					(mid 1.4851 0)
+					(end 2.286 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ECA1HHG471_1_0"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ECA1HHG471_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ECA1HHG471"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ECA1HHG471:CAPPRD500W60D1000H2000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NHG-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "b_max" "0.65"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "RADIAL-2 Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "b_nom" "0.6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ECA1HHG471/Panasonic/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECA1HHG471/Panasonic/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "20-DEC-19"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "A_max" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ECA1HHG471"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "D_nom" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "e_nom" "5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "470µF 50V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 105°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ECA1HHG471_1_0_0"
+				(rectangle
+					(start -1.173 -1.532)
+					(end -0.284 -1.405)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.792 -1.913)
+					(end -0.665 -1.024)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.286 -2.54)
+					(mid 1.4851 0)
+					(end 2.286 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ECA1HHG471_1_1_0"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ECA1HHG471_2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ECA1HHG471"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ECA1HHG471:CAPPRD500W60D1000H2000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NHG-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "b_max" "0.65"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "RADIAL-2 Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "b_nom" "0.6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ECA1HHG471/Panasonic/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECA1HHG471/Panasonic/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "20-DEC-19"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "A_max" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ECA1HHG471"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "D_nom" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "e_nom" "5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "470µF 50V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 105°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ECA1HHG471_2_0_0"
+				(rectangle
+					(start -1.173 -1.532)
+					(end -0.284 -1.405)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.792 -1.913)
+					(end -0.665 -1.024)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.286 -2.54)
+					(mid 1.4851 0)
+					(end 2.286 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ECA1HHG471_2_1_0"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -4216,6 +5009,12 @@
 		(uuid "175e570f-8fa1-4a59-b5aa-633f4c91e81c")
 	)
 	(junction
+		(at 76.2 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ccaaa9c-c3e0-498f-834c-0381bc5d6a72")
+	)
+	(junction
 		(at 36.83 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4401,16 +5200,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 232.41) (xy 36.83 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b59a66d-2761-4093-b9dc-218d5e73ecd0")
-	)
-	(wire
-		(pts
 			(xy 44.45 224.79) (xy 50.8 224.79)
 		)
 		(stroke
@@ -4468,6 +5257,16 @@
 			(type default)
 		)
 		(uuid "11bdb46a-9417-41a3-a5bc-c3bf81953f1f")
+	)
+	(wire
+		(pts
+			(xy 31.75 229.87) (xy 31.75 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145c728e-4004-460a-8f8e-02f3269575fa")
 	)
 	(wire
 		(pts
@@ -4658,6 +5457,16 @@
 			(type default)
 		)
 		(uuid "374370fe-be93-46a2-aabc-7f8d35db58b4")
+	)
+	(wire
+		(pts
+			(xy 31.75 232.41) (xy 36.83 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a31ef22-5b13-4667-9865-6c28dab5d0ca")
 	)
 	(wire
 		(pts
@@ -5448,16 +6257,6 @@
 			(type default)
 		)
 		(uuid "db8adae0-84ff-4d45-85ff-ceda981aa1ba")
-	)
-	(wire
-		(pts
-			(xy 31.75 229.87) (xy 31.75 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deb64057-47df-4d1d-92fb-9474c88d8e06")
 	)
 	(wire
 		(pts
@@ -6557,7 +7356,7 @@
 			(uuid "179ea7a2-f324-49ef-991a-abc4369dca38")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "U2")
 					(unit 1)
@@ -7113,7 +7912,7 @@
 			(uuid "f5060746-8f1d-48f9-9040-16c5f092eb03")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "J7")
 					(unit 1)
@@ -7270,7 +8069,7 @@
 			(uuid "33ea3ed3-ab92-42c5-a078-1178ec02dfe2")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "#PWR077")
 					(unit 1)
@@ -8093,7 +8892,7 @@
 			(uuid "946c0e24-ba36-4053-9ee6-1296b5f9f54f")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "R3")
 					(unit 1)
@@ -8164,7 +8963,7 @@
 			(uuid "c49087d6-a207-42cc-b0a4-a7dbb6d767c6")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "J22")
 					(unit 1)
@@ -8611,7 +9410,7 @@
 			(uuid "5855ab5e-e696-48d0-97d6-447c10156bbc")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "R1")
 					(unit 1)
@@ -8746,6 +9545,72 @@
 			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 76.2 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52a769a6-c23c-443b-8774-7eea4c08dfc5")
+		(property "Reference" "#FLG07"
+			(at 76.2 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 76.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 76.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6653adb0-edb3-4129-912e-561641d21892")
+		)
+		(instances
+			(project "PCB_RAIL"
+				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -9304,7 +10169,7 @@
 			(uuid "578aca32-5bdb-4bb8-8916-4a6ad5b8afbc")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "J18")
 					(unit 1)
@@ -9808,7 +10673,7 @@
 			(uuid "fa7f0810-da84-4744-93a0-3d099bcb154e")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "J6")
 					(unit 1)
@@ -9971,16 +10836,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 26.67 229.87 180)
+		(at 26.67 227.33 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "86f128af-d613-4866-aaac-804d48d26ee8")
 		(property "Reference" "J1"
-			(at 26.67 220.98 0)
+			(at 26.67 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9988,15 +10853,15 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 26.67 223.52 0)
+			(at 26.67 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
-			(at 26.67 229.87 0)
+		(property "Footprint" "conn_ARES:XT30-F-2P"
+			(at 26.67 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10005,7 +10870,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 229.87 0)
+			(at 26.67 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10014,7 +10879,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 229.87 0)
+			(at 26.67 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10029,7 +10894,7 @@
 			(uuid "a2775edc-5401-41b9-bd83-912e190bcf85")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "J1")
 					(unit 1)
@@ -10316,7 +11181,7 @@
 			(uuid "d8e58a6f-ac6b-4ee5-aa02-665bca3478aa")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "#FLG01")
 					(unit 1)
@@ -10687,93 +11552,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 44.45 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c82a9b9-9363-4929-aa20-685af67c32d8")
-		(property "Reference" "C1"
-			(at 45.974 225.806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220u"
-			(at 45.212 230.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ECA1HHG471:CAPPRD500W60D1000H2000"
-			(at 45.4152 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 44.45 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 44.45 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 44.45 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f142a65-e19c-4437-8b60-4c3de2d29a4d")
-		)
-		(pin "2"
-			(uuid "80ec8885-122a-4d12-b65c-7fe6eab917a1")
-		)
-		(instances
-			(project "PCB_RAIL"
-				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 322.58 46.99 90)
 		(unit 1)
@@ -10984,7 +11762,7 @@
 			(uuid "153951fe-235c-4b54-a98b-93903db74aae")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "TP1")
 					(unit 1)
@@ -11185,6 +11963,219 @@
 			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ECA1HHG471_1")
+		(lib_id "ECA1HHG471:ECA1HHG471")
+		(at 83.82 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a51adbff-7a18-4ec0-b588-fa6d99d3548f")
+		(property "Reference" "C9"
+			(at 87.63 159.4465 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ECA1HHG471"
+			(at 87.63 161.9865 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ECA1HHG471:ECA1HHG471"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NHG-A"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "b_max" "0.65"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "RADIAL-2 Panasonic"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "b_nom" "0.6"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ECA1HHG471/Panasonic/view-part/?ref=eda"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECA1HHG471/Panasonic/view-part/?ref=snap"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "20-DEC-19"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_max" "20"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ECA1HHG471"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_nom" "10"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "e_nom" "5"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "470µF 50V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 105°C"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d49b2a8e-2822-46f8-9258-185400f3df23")
+		)
+		(pin "1"
+			(uuid "a18ff0a9-fb4c-4561-abcd-a3cca32fa35f")
+		)
+		(instances
+			(project "PCB_RAIL"
+				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11569,9 +12560,221 @@
 			(uuid "432f850c-7ce8-4b79-bc11-07823356683d")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECA1HHG471:ECA1HHG471")
+		(at 377.19 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adddb82a-df41-4097-8187-302fa6f320eb")
+		(property "Reference" "C28"
+			(at 381 32.4465 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ECA1HHG471"
+			(at 381 34.9865 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ECA1HHG471:ECA1HHG471"
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NHG-A"
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "b_max" "0.65"
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "RADIAL-2 Panasonic"
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "b_nom" "0.6"
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ECA1HHG471/Panasonic/view-part/?ref=eda"
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECA1HHG471/Panasonic/view-part/?ref=snap"
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "20-DEC-19"
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_max" "20"
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ECA1HHG471"
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_nom" "10"
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "e_nom" "5"
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "470µF 50V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 105°C"
+			(at 377.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd60a08b-6cf1-489c-a5b2-8e66869400e8")
+		)
+		(pin "1"
+			(uuid "90338cdc-5a57-45e7-8e69-0ee4e2c8dc3e")
+		)
+		(instances
+			(project "PCB_RAIL"
+				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -11659,93 +12862,6 @@
 			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 83.82 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b295cdc1-5e17-4988-872e-ba063130cd93")
-		(property "Reference" "C25"
-			(at 85.344 158.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220u"
-			(at 84.582 163.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ECA1HHG471:CAPPRD500W60D1000H2000"
-			(at 84.7852 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 83.82 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 83.82 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 83.82 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b54be9a-a52f-4b3d-94fb-788693a7df81")
-		)
-		(pin "2"
-			(uuid "76dfb697-f564-4836-9648-0d1fc3bd7dfa")
-		)
-		(instances
-			(project "PCB_RAIL"
-				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
-					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -12017,6 +13133,218 @@
 		)
 	)
 	(symbol
+		(lib_name "ECA1HHG471_2")
+		(lib_id "ECA1HHG471:ECA1HHG471")
+		(at 44.45 227.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcea8ac9-ccc0-4d72-a0fe-efa01b5931b1")
+		(property "Reference" "C1"
+			(at 45.212 231.394 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ECA1HHG471"
+			(at 45.212 233.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ECA1HHG471:ECA1HHG471"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NHG-A"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "b_max" "0.65"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "RADIAL-2 Panasonic"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "b_nom" "0.6"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ECA1HHG471/Panasonic/view-part/?ref=eda"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECA1HHG471/Panasonic/view-part/?ref=snap"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "20-DEC-19"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_max" "20"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ECA1HHG471"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_nom" "10"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "e_nom" "5"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "470µF 50V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 105°C"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a28b76a-9dfa-4bbe-a6cb-3697506dfca7")
+		)
+		(pin "1"
+			(uuid "5b4648a6-21cf-40a4-b93f-2ac782f02062")
+		)
+		(instances
+			(project "PCB_RAIL"
+				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 312.42 73.66 90)
 		(unit 1)
@@ -12167,93 +13495,6 @@
 			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 377.19 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c354f4b7-0671-463b-96d1-e00f96f87792")
-		(property "Reference" "C9"
-			(at 370.332 33.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220u"
-			(at 371.602 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ECA1HHG471:CAPPRD500W60D1000H2000"
-			(at 378.1552 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 377.19 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 377.19 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 377.19 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 377.19 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac80e9a7-1341-4b5f-8207-c0cb1b39a6b5")
-		)
-		(pin "2"
-			(uuid "96ebf5c1-6bb6-4553-b333-78e02759834c")
-		)
-		(instances
-			(project "PCB_RAIL"
-				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -12936,7 +14177,7 @@
 			(uuid "492086ca-045d-4c1d-959b-9de7abd724a1")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "#PWR09")
 					(unit 1)
@@ -13366,7 +14607,7 @@
 			(uuid "31b49940-dca9-40bb-8499-0821987f9005")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "JP1")
 					(unit 1)
@@ -14145,7 +15386,7 @@
 			(uuid "414aacc3-cb3d-4090-b849-b0045feb1957")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f"
 					(reference "J19")
 					(unit 1)

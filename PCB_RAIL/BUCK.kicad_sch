@@ -3424,7 +3424,7 @@
 			(uuid "6645f54b-1d73-435f-bcff-ecfd59fe9676")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f/897de79e-c187-4651-b8b8-25915d9c6390"
 					(reference "#FLG05")
 					(unit 1)
@@ -3978,7 +3978,7 @@
 			(uuid "cca76edd-df3a-466f-a2c5-01c96d8eaa0e")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f/897de79e-c187-4651-b8b8-25915d9c6390"
 					(reference "Cvin1")
 					(unit 1)
@@ -4249,7 +4249,7 @@
 			(uuid "45958319-b52e-4c44-bc0a-16d771bfa798")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f/897de79e-c187-4651-b8b8-25915d9c6390"
 					(reference "#PWR066")
 					(unit 1)
@@ -4374,7 +4374,7 @@
 			(uuid "c6f41683-3afc-4cd3-99ca-7a118cb722d3")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f/897de79e-c187-4651-b8b8-25915d9c6390"
 					(reference "U4")
 					(unit 1)
@@ -4440,7 +4440,7 @@
 			(uuid "77f5e23f-ada9-4946-95a4-faae90de159d")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f/897de79e-c187-4651-b8b8-25915d9c6390"
 					(reference "#PWR069")
 					(unit 1)
@@ -4522,7 +4522,7 @@
 			(uuid "b7aea2e8-38a6-4d0c-9ef9-3b243155b7e8")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f/897de79e-c187-4651-b8b8-25915d9c6390"
 					(reference "Q1")
 					(unit 1)
@@ -4658,7 +4658,7 @@
 			(uuid "08b1218e-0722-45a1-95ed-31c309dcd765")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f/897de79e-c187-4651-b8b8-25915d9c6390"
 					(reference "#PWR065")
 					(unit 1)
@@ -4728,7 +4728,7 @@
 			(uuid "ac583e78-e145-420f-9f76-a6713dedaa84")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f/897de79e-c187-4651-b8b8-25915d9c6390"
 					(reference "Rvin1")
 					(unit 1)
@@ -4796,7 +4796,7 @@
 			(uuid "2602ae10-b790-4e4b-a0a2-7ec3ac3bcbd1")
 		)
 		(instances
-			(project ""
+			(project "PCB_RAIL"
 				(path "/fe9a38fd-9574-4626-83c5-735e6b11628f/897de79e-c187-4651-b8b8-25915d9c6390"
 					(reference "L1")
 					(unit 1)
